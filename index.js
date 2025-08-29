@@ -26,6 +26,10 @@ function factorial(num) {
   }
   return resultado;
 }
+//exponente.
+function exponente(base, exp) {
+  return Math.pow(base, exp);
+}
 
 
 // Función principal del programa
