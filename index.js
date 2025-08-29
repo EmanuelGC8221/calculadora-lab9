@@ -17,6 +17,15 @@ function dividir(num1, num2) {
   }
   return num1 / num2;
 }
+//factorial.
+function factorial(num) {
+  if (num < 0) return "Error: no existe factorial negativo";
+  let resultado = 1;
+  for (let i = 1; i <= num; i++) {
+    resultado *= i;
+  }
+  return resultado;
+}
 
 
 // Función principal del programa
