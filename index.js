@@ -31,6 +31,13 @@ function exponente(base, exp) {
   return Math.pow(base, exp);
 }
 
+//raíz cuadrada.
+function raizCuadrada(num) {
+  if (num < 0) return "Error: no existe raíz cuadrada de números negativos";
+  return Math.sqrt(num);
+}
+
+
 
 // Función principal del programa
 function calculadora() {
